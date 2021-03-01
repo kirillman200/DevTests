@@ -10,9 +10,7 @@ export class Connect4 {
    playerTwoScore = 0
   play(col: number): string {
     
-  //  for (var c = 0; c <=6; c++){
-  //    col[i]
-  //  }
+ 
    
     for (var i = 0; i <= 6; i++) {
       this.player = this.player || 1;
@@ -45,11 +43,7 @@ export class Connect4 {
         }
         
   }
-  //  var cureentPlayer = 1
-
-  //   for (var i = 0; i < 7; i++) {
-        
-  //   }
+  
 
   
     // Good luck
